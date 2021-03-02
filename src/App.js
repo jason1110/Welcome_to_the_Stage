@@ -6,6 +6,9 @@ class App extends Component {
     name: "",
   }
 
+
+  //add fetch here to get names
+
   handleNameButton = () => {
    this.setState({ name: "george" })
   }
